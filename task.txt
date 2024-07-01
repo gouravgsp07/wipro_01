@@ -1,0 +1,23 @@
+Create a GitHub account on GitHub.com
+Install GitHub on your laptop. 
+Create a repository on GitHub.
+Clone that repository to Laptop through Visual Studio code ( if not installed, install visual studio code).
+Create a README.md file, write sample content and push the changes to the repository. Figure out the list of commands for pushing the changes.
+
+
+# Ensure you are in the correct directory
+cd C:\Users\Gourav\OneDrive\Desktop\Wipro\Week 2\1 july\Git related\wipro_01
+
+# Create README.md file if it does not exist
+echo "# My First Repository
+
+This is a sample repository to demonstrate the basic Git and GitHub workflow." > README.md
+
+# Add the README.md file to the staging area
+git add README.md
+
+# Commit the changes
+git commit -m "Add README.md with sample content"
+
+# Push the changes to the remote repository
+git push origin main
